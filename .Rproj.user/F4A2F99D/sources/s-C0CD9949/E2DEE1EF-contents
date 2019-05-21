@@ -1,7 +1,0 @@
-append.xlsx <- function(file, newdata) {
-  if(file.exists(file)){
-    existing.data <- read.xlsx(file)
-    newdata <- rbind(existing.data, newdata)
-  }
-  write.xlsx(newdata,file)
-}
