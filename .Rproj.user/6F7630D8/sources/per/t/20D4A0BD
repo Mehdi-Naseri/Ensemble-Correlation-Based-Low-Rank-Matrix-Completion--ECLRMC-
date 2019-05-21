@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1534104354059.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3417632060",
+    "id" : "20D4A0BD",
+    "lastKnownWriteTime" : 1534109419,
+    "last_content_update" : 1534109419814,
+    "path" : "~/R/ECLRMC/process.R",
+    "project_path" : "process.R",
+    "properties" : {
+        "cursorPosition" : "20,0",
+        "scrollLine" : "10"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

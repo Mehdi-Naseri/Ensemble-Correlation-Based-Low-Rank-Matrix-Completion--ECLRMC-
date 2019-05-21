@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1532910353958.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "816CD28C",
+    "lastKnownWriteTime" : 1534295745,
+    "last_content_update" : 1534295745084,
+    "path" : "~/shared/ECLRMC/Main.R",
+    "project_path" : "Main.R",
+    "properties" : {
+        "cursorPosition" : "15,25",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

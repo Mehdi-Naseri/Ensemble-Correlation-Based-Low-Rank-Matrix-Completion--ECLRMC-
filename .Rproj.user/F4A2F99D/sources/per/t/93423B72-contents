@@ -1,0 +1,15 @@
+# Clear variables
+rm(list = ls())
+library(readxl)
+library(openxlsx)
+library(parallel)
+source("missingPattern.R")
+source("ECLRMC.R")
+source("NRMS.R")
+source("process.R")
+
+# List of datasets
+#done = c("Iris")
+datasetNames = c("4-gauss","Abalone","BCW","Bupa","CNP","DERM","Difdoug","glass","lonosphere","PID","sheart","sonar","wine","WS","zoo")
+done = c("4-gauss", "BCW", "Bupa", "DERM", "Difdoug", "Iris", "PID", "WS")
+print(mclapply(datasetNames, process, mc.cores=16))
